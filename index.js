@@ -6,7 +6,7 @@ const globby = require('globby');
 const makeDir = require('make-dir');
 const pify = require('pify');
 const pPipe = require('p-pipe');
-const replaceExt = require('replace-ext');
+const replaceExt = require('jmazm-replace-ext');
 
 const fsP = pify(fs);
 
